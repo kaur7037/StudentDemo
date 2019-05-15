@@ -10,17 +10,23 @@ package softwarefundamentalsstudents;
  * @author aulak
  */
 public class SoftwareFundamentalsStudents {
+    private int sid;
 
-    /**
-     * @param args the command line arguments
-     */
+    public int getSid() {
+        return sid;
+    }
+
+    public void setSid(int sid) {
+        this.sid = sid;
+    }
    private String name;//encapsulation
    //constructors--------------------------------------------------------------------------------------------------
    public SoftwareFundamentalsStudents(){
          
    }
-   public SoftwareFundamentalsStudents(String n){
+   public SoftwareFundamentalsStudents(String n,int s){
        this.name=n;
+       this.sid=s;
    
    }
 
