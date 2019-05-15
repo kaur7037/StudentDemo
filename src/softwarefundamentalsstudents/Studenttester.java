@@ -12,13 +12,13 @@ package softwarefundamentalsstudents;
 public class Studenttester {
    public static void main(String[] args) {
      SoftwareFundamentalsStudents s1= new SoftwareFundamentalsStudents ();
-     s1.setName("Gagan");
+     s1.setName("Gaganpreet Kaur");
      //System.out.println(s1.getName());
      SoftwareFundamentalsStudents s2= new SoftwareFundamentalsStudents ();
-     s2.setName("Gurleen");
+     s2.setName("Gurleen Kaur");
     // System.out.println(s2.getName());
      SoftwareFundamentalsStudents s3= new SoftwareFundamentalsStudents ();
-     s3.setName("Gurjot");
+     s3.setName("Gurjot Kaur");
     // System.out.println(s3.getName());
      
      SoftwareFundamentalsStudents [] list=new SoftwareFundamentalsStudents[3];
