@@ -11,6 +11,7 @@ package softwarefundamentalsstudents;
  May 22nd,2019*/
 public class SoftwareFundamentalsStudents {
     private int sid;
+    private int Maxcourse;
 
     public int getSid() {
         return sid;
@@ -42,6 +43,20 @@ public class SoftwareFundamentalsStudents {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @return the Maxcourse
+     */
+    public int getMaxcourse() {
+        return Maxcourse;
+    }
+
+    /**
+     * @param Maxcourse the Maxcourse to set
+     */
+    public void setMaxcourse(int Maxcourse) {
+        this.Maxcourse = Maxcourse;
     }
 
     
