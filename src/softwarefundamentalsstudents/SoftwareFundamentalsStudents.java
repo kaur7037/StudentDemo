@@ -7,7 +7,7 @@ package softwarefundamentalsstudents;
 
 /**
  *
- * @author aulak
+ * @author aulak sheridan college
  May 22nd,2019*/
 public class SoftwareFundamentalsStudents {
     private int sid;
