@@ -28,6 +28,6 @@ public class Studenttester {
      for(int i=0; i<list.length; i++){
          System.out.println(list[i].getName());
      }
-
+System.out.println("testing Fetch");
 }
 }
